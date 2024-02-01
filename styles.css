@@ -8,4 +8,29 @@
   --clr-white: white;
 }
 
-/********************/
+/******** Resets ************/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+img {
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  padding: 0;
+}
