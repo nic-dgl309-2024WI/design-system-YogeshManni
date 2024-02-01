@@ -1,0 +1,11 @@
+/***** Variables ******/
+
+:root {
+  --clr-primary: black;
+  --clr-secondary: #5a5a5a;
+  --clr-accent: #5a5a5a;
+  --clr-light: #a9a9a9;
+  --clr-white: white;
+}
+
+/********************/
