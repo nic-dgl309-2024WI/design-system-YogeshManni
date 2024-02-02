@@ -48,3 +48,26 @@ a {
 .menu__responsive a:nth-child(2) {
   margin-top: 20px;
 }
+
+/***** Side navbar styles for mobile **********/
+.menu__responsive .sidebarNav__subheading {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+.menu__sidebarNavResponsive p,
+.menu__sidebarNavResponsive a {
+  display: none;
+}
+.menu__sidebarNavResponsive {
+  position: relative;
+  width: 100%;
+  background-color: var(--clr-light);
+}
+
+.menu__sidebarNavResponsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
