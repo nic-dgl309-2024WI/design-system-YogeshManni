@@ -25,3 +25,26 @@ a {
   float: right;
   display: block;
 }
+
+/********************/
+
+/***** Top navbar styles for mobile **********/
+.menu__responsive {
+  position: relative;
+  background-color: var(--clr-light);
+  padding: 20px;
+}
+.menu__responsive .icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.menu__responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+.menu__responsive a:nth-child(2) {
+  margin-top: 20px;
+}
