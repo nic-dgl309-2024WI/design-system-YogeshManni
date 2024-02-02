@@ -127,4 +127,19 @@ a {
     background-color: var(--clr-lighter);
     color: var(--clr-primary);
   }
+
+  .c-menu__sidebarNav a:hover {
+    background-color: var(--clr-lighter);
+    color: var(--clr-primary);
+  }
+
+  .c-menu__sidebarNav {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: var(--clr-light);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    height: 100vw;
+  }
 }
