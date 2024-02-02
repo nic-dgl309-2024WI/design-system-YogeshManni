@@ -1,0 +1,27 @@
+/****** globals styles ***/
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/**** target current page for active state ***/
+:target {
+  color: var(--clr-secondary);
+  background-color: var(--clr-lighter);
+}
+
+.c-menu {
+  background-color: var(--clr-light);
+  padding: 20px;
+}
+.c-menu a:not(:first-child) {
+  display: none;
+}
+
+.c-menu__sidebarNav {
+  display: none;
+}
+.c-menu a.icon {
+  float: right;
+  display: block;
+}
