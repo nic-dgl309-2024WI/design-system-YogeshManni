@@ -4,8 +4,9 @@
   --clr-primary: black;
   --clr-secondary: #5a5a5a;
   --clr-accent: #5a5a5a;
-  --clr-light: #a9a9a9;
+  --clr-light: #c4c3c3;
   --clr-white: white;
+  --clr-lighter: #ddd;
 }
 
 /******** Resets ************/
