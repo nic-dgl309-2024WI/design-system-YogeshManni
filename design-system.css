@@ -71,3 +71,18 @@ a {
   display: block;
   text-align: left;
 }
+
+.menu__sidebarNavResponsive .sidebarNav__subheading {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+.menu__sidebarNavResponsive {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--clr-light);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
