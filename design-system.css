@@ -101,6 +101,10 @@ a {
   color: var(--clr-primary);
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
 /************ color swatch styles*********************/
 
 .swatchContainer__swatch {
@@ -202,5 +206,10 @@ a {
   .sidebarNav__subheading {
     margin: 10px 0px;
     display: block;
+  }
+
+  .mainContainer {
+    display: flex;
+    flex-direction: row;
   }
 }
