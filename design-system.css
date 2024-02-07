@@ -110,6 +110,15 @@ a {
   justify-content: space-between;
 }
 
+.swatch__colorBox {
+  background-color: var(--clr-primary-100);
+  height: 200px;
+  width: 400px;
+}
+
+.swatch__attributes {
+  margin-top: 20px;
+}
 /*********************************/
 
 @media screen and (min-width: 550px) {
