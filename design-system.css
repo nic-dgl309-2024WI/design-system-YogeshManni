@@ -110,8 +110,40 @@ a {
   justify-content: space-between;
 }
 
-.swatch__colorBox {
+.swatch__colorBox-1 {
   background-color: var(--clr-primary-100);
+  height: 200px;
+  width: 400px;
+}
+
+.swatch__colorBox-2 {
+  background-color: var(--clr-primary-200);
+  height: 200px;
+  width: 400px;
+}
+
+.swatch__colorBox-3 {
+  background-color: var(--clr-primary-300);
+  height: 200px;
+  width: 400px;
+}
+.swatch__colorBox-4 {
+  background-color: var(--clr-secondary-100);
+  height: 200px;
+  width: 400px;
+}
+.swatch__colorBox-5 {
+  background-color: var(--clr-secondary-200);
+  height: 200px;
+  width: 400px;
+}
+.swatch__colorBox-6 {
+  background-color: var(--clr-accent-100);
+  height: 200px;
+  width: 400px;
+}
+.swatch__colorBox-7 {
+  background-color: var(--clr-accent-200);
   height: 200px;
   width: 400px;
 }
