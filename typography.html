@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+  </head>
+  <body>
+    <!------ Top Navbar --------->
+    <div class="c-menu" id="navbar">
+      <span class="menu__logo">Design System</span>
+      <a class="menu_item" id="site" href="#site">Demo site</a>
+      <a class="menu_item" id="about-me" href="about-me.html">About me</a>
+
+      <!----- Hamburger toggle, calling js function on click ----->
+      <a class="icon" onclick="toggleHamburger()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!------ Side Navbar --------->
+    <div class="mainContainer">
+      <div class="c-menu__sidebarNav" id="sideNavbar">
+        <p class="sidebarNav__subheading">Branding</p>
+        <a class="sidebarNav__active">01 Colors</a>
+        <a>02 Typography</a>
+        <a>03 Logo</a>
+
+        <p class="sidebarNav__subheading">Utilities</p>
+        <a>04 Spacing</a>
+        <a>05 Containers</a>
+        <a>06 Images</a>
+        <a>07 Interactive</a>
+        <a>08 Feedback</a>
+
+        <p class="sidebarNav__subheading">Navigation</p>
+        <a>09 Navbars</a>
+        <a>10 Breadcrumbs</a>
+        <a>11 Pagination</a>
+
+        <p class="sidebarNav__subheading">Blocks</p>
+        <a>12 Hero</a>
+        <a>13 Carousel</a>
+        <a>14 Slats</a>
+        <a>15 Footer</a>
+
+        <p class="sidebarNav__subheading">Components</p>
+        <a>16 Cards</a>
+        <a>17 Forms</a>
+        <a>18 Accordion</a>
+        <a>19 Lists</a>
+      </div>
+
+      <main></main>
+    </div>
+    <script src="design-system.js"></script>
+  </body>
+</html>
