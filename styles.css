@@ -51,3 +51,40 @@ ol,
 li {
   padding: 0;
 }
+
+/* Utility Classes */
+.u-ff-serif {
+  font-family: var(--heading-font-family);
+}
+
+.u-ff-sans {
+  font-family: var(--body-font-family);
+}
+
+.u-fw-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.u-fw-extra-bold {
+  font-weight: var(--font-weight-extra-bold);
+}
+
+.u-fw-normal {
+  font-weight: var(--font-weight-normal);
+}
+
+.u-fs-h1 {
+  font-size: var(--font-size-h1);
+}
+
+.u-fs-h2 {
+  font-size: var(--font-size-h2);
+}
+
+.u-fs-h3 {
+  font-size: var(--font-size-h3);
+}
+
+.u-fs-p {
+  font-size: var(--font-size-p);
+}
