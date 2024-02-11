@@ -155,8 +155,13 @@ a {
 .swatch__attributes {
   margin-top: 20px;
 }
-/*********************************/
+/************* typography styles ********************/
 
+.typographyContainer__fonts {
+  margin: 20px;
+}
+
+/*********************************/
 @media screen and (min-width: 550px) {
   /***** Top navbar styles for  desktop **********/
   .c-menu {

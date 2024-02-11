@@ -14,8 +14,8 @@
   --clr-lighter: #ddd;
 
   /*** font variables **/
-  --heading-font-family: "Montserrat", sans-serif;
-  --body-font-family: "Roboto", sans-serif;
+  --heading-font-family: "Roboto", sans-serif;
+  --body-font-family: "Montserrat", sans-serif;
   --font-weight-bold: 700;
   --font-weight-extra-bold: 800;
   --font-weight-normal: 400;
