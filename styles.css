@@ -52,6 +52,13 @@ li {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+.sidebarNav__active {
+  color: var(--clr-secondary-200);
+}
+
 /* Utility Classes */
 .u-ff-serif {
   font-family: var(--heading-font-family);
