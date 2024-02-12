@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Typography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
     <link
@@ -102,6 +100,40 @@
             </div>
           </section>
         </div>
+
+        <section>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Element</th>
+                <th>Font Family</th>
+                <th>Font Weight</th>
+                <th>Font Size</th>
+                <th>Line Height</th>
+                <th>Font Style</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="u-ff-serif u-fw-normal">
+                <td>Main Heading</td>
+                <td>Roboto</td>
+                <td>700</td>
+                <td>2.5rem</td>
+                <td>Normal</td>
+                <td>Normal</td>
+              </tr>
+
+              <tr class="u-ff-sans u-fs-p u-fw-400">
+                <td>Body Text (Paragraph)</td>
+                <td>Montserrat</td>
+                <td>400</td>
+                <td>1rem</td>
+                <td>1</td>
+                <td>Normal</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </main>
     </div>
     <script src="design-system.js"></script>
