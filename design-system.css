@@ -161,6 +161,10 @@ a {
   margin: 20px;
 }
 
+.background {
+  color: var(--clr-secondary-200);
+}
+
 /*********************************/
 @media screen and (min-width: 550px) {
   /***** Top navbar styles for  desktop **********/
