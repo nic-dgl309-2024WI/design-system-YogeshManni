@@ -185,6 +185,11 @@ th {
   color: var(--clr-white);
 }
 
+.utilityClasses,
+.fonts {
+  margin: 20px;
+}
+
 /*********************************/
 @media screen and (min-width: 550px) {
   /***** Top navbar styles for  desktop **********/

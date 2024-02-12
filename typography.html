@@ -21,7 +21,7 @@
   <body>
     <!------ Top Navbar --------->
     <div class="c-menu" id="navbar">
-      <span class="menu__logo">Design System</span>
+      <span class="menu__logo u-fw-bold">Design System</span>
       <a class="menu_item" id="site" href="#site">Demo site</a>
       <a class="menu_item" id="about-me" href="about-me.html">About me</a>
 
@@ -34,30 +34,32 @@
     <!------ Side Navbar --------->
     <div class="mainContainer">
       <div class="c-menu__sidebarNav" id="sideNavbar">
-        <p class="sidebarNav__subheading">Branding</p>
+        <p class="sidebarNav__subheading u-fw-bold">Branding</p>
         <a href="colors.html">01 Colors</a>
-        <a class="sidebarNav__active" href="typography.html">02 Typography</a>
+        <a class="sidebarNav__active u-fw-bold" href="typography.html"
+          >02 Typography</a
+        >
         <a>03 Logo</a>
 
-        <p class="sidebarNav__subheading">Utilities</p>
+        <p class="sidebarNav__subheading u-fw-bold">Utilities</p>
         <a>04 Spacing</a>
         <a>05 Containers</a>
         <a>06 Images</a>
         <a>07 Interactive</a>
         <a>08 Feedback</a>
 
-        <p class="sidebarNav__subheading">Navigation</p>
+        <p class="sidebarNav__subheading u-fw-bold">Navigation</p>
         <a>09 Navbars</a>
         <a>10 Breadcrumbs</a>
         <a>11 Pagination</a>
 
-        <p class="sidebarNav__subheading">Blocks</p>
+        <p class="sidebarNav__subheading u-fw-bold">Blocks</p>
         <a>12 Hero</a>
         <a>13 Carousel</a>
         <a>14 Slats</a>
         <a>15 Footer</a>
 
-        <p class="sidebarNav__subheading">Components</p>
+        <p class="sidebarNav__subheading u-fw-bold">Components</p>
         <a>16 Cards</a>
         <a>17 Forms</a>
         <a>18 Accordion</a>
@@ -101,7 +103,7 @@
           </section>
         </div>
 
-        <section>
+        <section class="fonts">
           <table class="table">
             <thead>
               <tr>
@@ -130,6 +132,39 @@
                 <td>1rem</td>
                 <td>1</td>
                 <td>Normal</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="utilityClasses">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Element</th>
+                <th>Utility classes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="u-ff-serif u-fw-normal">
+                <td>Roboto Font</td>
+                <td>u-ff-serif</td>
+              </tr>
+              <tr class="u-ff-serif u-fw-normal">
+                <td>Montserrat</td>
+                <td>u-ff-sans</td>
+              </tr>
+              <tr class="u-ff-serif u-fw-normal">
+                <td>H1</td>
+                <td>u-fs-h1, u-fw-bold, u-fw-800, u-ff-serif</td>
+              </tr>
+              <tr class="u-ff-serif u-fw-normal">
+                <td>P</td>
+                <td>u-fs-p, u-fw-400, u-ff-sans, u-fw-bold, u-fw-extra-bold</td>
+              </tr>
+              <tr class="u-ff-serif u-fw-normal">
+                <td>span</td>
+                <td>u-fw-400, u-ff-sans, u-fw-bold, u-fw-extra-bold</td>
               </tr>
             </tbody>
           </table>
