@@ -161,11 +161,11 @@ a {
 }
 
 .u-text-main {
-  background-color: var(--clr-secondary-100);
+  color: var(--clr-secondary-100);
 }
 
 .u-text-btn {
-  background-color: var(--clr-secondary-200);
+  color: var(--clr-secondary-200);
 }
 .u-bkd-black {
   background-color: var(--clr-secondary-100);
