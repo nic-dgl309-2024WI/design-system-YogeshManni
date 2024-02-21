@@ -152,6 +152,14 @@ a {
   background-color: var(--clr-primary-400);
 }
 
+.u-accent-1 {
+  background-color: var(--clr-accent-100);
+}
+
+.u-text-sec {
+  color: var(--clr-primary-300);
+}
+
 .u-text-main {
   background-color: var(--clr-secondary-100);
 }
@@ -159,7 +167,14 @@ a {
 .u-text-btn {
   background-color: var(--clr-secondary-200);
 }
+.u-bkd-black {
+  background-color: var(--clr-secondary-100);
+}
 
-.u-accent-1 {
-  background-color: var(--clr-accent-100);
+.u-maintext-bkd {
+  background-color: var(--clr-secondary-100);
+}
+
+.u-btntext-bkd {
+  background-color: var(--clr-secondary-200);
 }
