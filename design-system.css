@@ -136,12 +136,13 @@ a {
 }
 
 .background {
-  color: var(--clr-secondary-200);
+  color: var(--clr-secondary-300);
 }
 
 .table {
   border-collapse: collapse;
   width: 100%;
+  border: 1px solid var(--clr-primary-400);
 }
 
 th,
@@ -155,8 +156,8 @@ tr:nth-child(even) {
 }
 
 th {
-  background-color: var(--clr-secondary-200);
-  color: var(--clr-white);
+  background-color: var(--clr-primary-300);
+  color: var(--clr-secondary-200);
 }
 
 .utilityClasses,
