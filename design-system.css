@@ -93,12 +93,12 @@ a {
 }
 
 .menu__responsive a:hover {
-  background-color: var(--clr-lighter);
-  color: var(--clr-primary);
+  color: var(--clr-primary-300);
+  transform: scale(1.1);
 }
 .menu__sidebarNavResponsive a:hover {
-  background-color: var(--clr-lighter);
-  color: var(--clr-primary);
+  color: var(--clr-primary-300);
+  transform: scale(1.1);
 }
 
 .mainContainer {
@@ -185,14 +185,14 @@ th {
     display: none;
   }
   .c-menu a:hover {
-    background-color: var(--clr-lighter);
-    color: var(--clr-primary);
+    color: var(--clr-primary-300);
+    transform: scale(1.1);
   }
 
   /***** Side navbar styles for  desktop **********/
   .c-menu__sidebarNav a:hover {
-    background-color: var(--clr-lighter);
-    color: var(--clr-primary);
+    color: var(--clr-primary-300);
+    transform: scale(1.1);
   }
 
   .c-menu__sidebarNav {
