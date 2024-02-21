@@ -13,11 +13,11 @@
   /* Color for borders and highlights */
   --clr-primary-400: #d4e7c5;
 
-  /* Text for button */
-  --clr-secondary-100: #ffff;
-
   /* Color for texts on pages like h1, h2, p and other content tags */
-  --clr-secondary-200: #3b413a;
+  --clr-secondary-100: #3b413a;
+
+  /* Text for button */
+  --clr-secondary-200: #ffff;
 
   --clr-accent-100: #d4e7c5;
 
@@ -135,4 +135,34 @@ a {
 }
 .u-fw-900 {
   font-weight: 900;
+}
+
+/** utility classes for colors ****/
+
+.u-background-main {
+  background-color: var(--clr-primary-100);
+}
+
+.u-background-sec {
+  background-color: var(--clr-primary-200);
+}
+
+.u-background-btn {
+  background-color: var(--clr-primary-300);
+}
+
+.u-border {
+  background-color: var(--clr-primary-400);
+}
+
+.u-text-main {
+  background-color: var(--clr-secondary-100);
+}
+
+.u-text-btn {
+  background-color: var(--clr-secondary-200);
+}
+
+.u-accent-1 {
+  background-color: var(--clr-accent-100);
 }
