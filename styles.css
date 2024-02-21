@@ -19,11 +19,8 @@
   /* Text for button */
   --clr-secondary-200: #ffff;
 
-  --clr-accent-100: #d4e7c5;
-
-  --clr-light: #c4c3c3;
-  --clr-white: white;
-  --clr-lighter: #ddd;
+  /* For icons and other smaller items*/
+  --clr-accent-100: #e8e8e8;
 
   /*** font variables **/
   --heading-font-family: "Roboto", sans-serif;
