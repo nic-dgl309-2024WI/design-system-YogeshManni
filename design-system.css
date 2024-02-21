@@ -152,7 +152,7 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: var(--clr-white);
+  background-color: var(--clr-accent-100);
 }
 
 th {
