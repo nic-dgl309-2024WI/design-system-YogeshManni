@@ -1,14 +1,26 @@
 /***** Variables ******/
 
 :root {
-  --clr-primary-100: #d6e3f8;
-  --clr-primary-200: #fef5ef;
-  --clr-primary-300: #e4bb97;
-  --clr-secondary-100: #f7f0f0;
-  --clr-secondary-200: #9d5c63;
+  /* Main background color */
+  --clr-primary-100: #f5fcf4;
 
-  --clr-accent-100: #cbf3f0;
-  --clr-accent-200: #2ec4b6;
+  /* Color used for cards, inputs and other smaller section backgrounds */
+  --clr-primary-200: #d6e5d8;
+
+  /* Color for buttons */
+  --clr-primary-300: #26643b;
+
+  /* Color for borders and highlights */
+  --clr-primary-400: #d4e7c5;
+
+  /* Text for button */
+  --clr-secondary-100: #ffff;
+
+  /* Color for texts on pages like h1, h2, p and other content tags */
+  --clr-secondary-200: #3b413a;
+
+  --clr-accent-100: #d4e7c5;
+
   --clr-light: #c4c3c3;
   --clr-white: white;
   --clr-lighter: #ddd;

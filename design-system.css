@@ -112,6 +112,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 2px solid var(--clr-primary-400);
+  border-radius: 20px;
 }
 
 .swatch__colorBox-1 {
