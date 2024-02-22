@@ -62,54 +62,71 @@ li {
   padding: 0;
 }
 
+/* set text-decoration to none for links */
 a {
   text-decoration: none;
 }
+
+/* set color to active link */
 .sidebarNav__active {
   color: var(--clr-secondary-200);
 }
 
 /* Utility Classes */
+
+/* class for Roboto font */
 .u-ff-serif {
   font-family: var(--heading-font-family);
 }
 
+/* class for Montserrat font */
 .u-ff-sans {
   font-family: var(--body-font-family);
 }
 
+/* utility class for bold fonts */
 .u-fw-bold {
   font-weight: var(--font-weight-bold);
 }
 
+/* utility class for extra-bold font */
 .u-fw-extra-bold {
   font-weight: var(--font-weight-extra-bold);
 }
 
+/* utility class for normal font weight */
 .u-fw-normal {
   font-weight: var(--font-weight-normal);
 }
 
+/* utility class to give h1 font-size */
 .u-fs-h1 {
   font-size: var(--font-size-h1);
 }
 
+/* utility class to give h2 font-size */
 .u-fs-h2 {
   font-size: var(--font-size-h2);
 }
 
+/* utility class to give h3 font-size */
 .u-fs-h3 {
   font-size: var(--font-size-h3);
 }
 
+/* utility class to give p font-size */
 .u-fs-p {
   font-size: var(--font-size-p);
 }
 
+/* utility class to give small font-size */
 .u-fs-small {
   font-size: var(--font-sm);
 }
-/*** utiltiy classes font-weights **/
+
+/*** utiltiy classes  for different font-weights  **/
+
+/*** lightest font-weight ***/
 .u-fw-100 {
   font-weight: 100;
 }
@@ -134,51 +151,65 @@ a {
 .u-fw-800 {
   font-weight: 800;
 }
+
+/*** Heaviest font-weight ***/
 .u-fw-900 {
   font-weight: 900;
 }
 
 /** utility classes for colors ****/
 
+/** utility classes for main background color ****/
 .u-background-main {
   background-color: var(--clr-primary-100);
 }
 
+/** utility classes for secondary background color ****/
 .u-background-sec {
   background-color: var(--clr-primary-200);
 }
 
+/** utility classes for buttons color ****/
 .u-background-btn {
   background-color: var(--clr-primary-300);
 }
 
+/** utility classes for border color ****/
 .u-border {
   background-color: var(--clr-primary-400);
 }
 
+/** utility classes for accent color ****/
 .u-accent-1 {
   background-color: var(--clr-accent-100);
 }
 
+/** utility classes for secondary text color ****/
 .u-text-sec {
   color: var(--clr-primary-300);
 }
 
+/** utility classes for main text color ****/
 .u-text-main {
   color: var(--clr-secondary-100);
 }
 
+/** utility classes for buttons text color ****/
 .u-text-btn {
   color: var(--clr-secondary-200);
 }
+
+/** utility classes for black background ****/
 .u-bkd-black {
   background-color: var(--clr-secondary-100);
 }
 
+/** utility classes to show  main text color on swatches****/
 .u-maintext-bkd {
   background-color: var(--clr-secondary-100);
 }
 
+/** utility classes to show  button text color on swatches****/
 .u-btntext-bkd {
   background-color: var(--clr-secondary-200);
 }
