@@ -1,4 +1,4 @@
-/****** globals styles ***/
+/********************* globals styles *****************************/
 a {
   cursor: pointer;
   text-decoration: none;
@@ -6,107 +6,122 @@ a {
 
 /**** target current page for active state ***/
 :target {
-  color: var(--clr-secondary);
-  background-color: var(--clr-lighter);
+  color: var(--clr-primary-300);
+  background-color: var(--clr-primary-200);
 }
 
+/* Add background color  and padding to top navbar */
 .c-menu {
   background-color: var(--clr-primary-100);
   padding: 20px;
 }
+
+/* Hide menu items for mobile view */
 .c-menu a:not(:first-child) {
   display: none;
 }
 
+/* Hide sidebar for mobile view */
 .c-menu__sidebarNav {
   display: none;
 }
+
+/* positioning hamburger icon to right */
 .c-menu a.icon {
   float: right;
   display: block;
 }
 
-/********************/
+/****************************************************************/
 
 /***** Top navbar styles for mobile **********/
+
+/* positioning and adding paddding to topnavbar */
 .menu__responsive {
   position: relative;
-  background-color: var(--clr-light);
+  background-color: var(--clr-primary-100);
   padding: 20px;
 }
+
+/* positioning hamburger icon */
 .menu__responsive .icon {
   position: absolute;
   right: 20px;
   top: 20px;
 }
+/* positioning menu links */
 .menu__responsive a {
   float: none;
   display: block;
   text-align: left;
 }
 
+/* Adding margin to the menu items */
 .menu__responsive a:nth-child(2) {
   margin-top: 20px;
 }
 
-/***** Side navbar styles for mobile **********/
+/************** Side navbar styles for mobile ********************/
+
+/* position sidenavbar menu items to left */
 .menu__responsive .sidebarNav__subheading {
   float: none;
   display: block;
   text-align: left;
 }
 
+/* Initially hiding sidenavbar menu items */
 .menu__sidebarNavResponsive p,
 .menu__sidebarNavResponsive a {
   display: none;
 }
+
+/* Adding color and width to sidenavbar */
 .menu__sidebarNavResponsive {
   position: relative;
   width: 100%;
   background-color: var(--clr-primary-100);
 }
 
-.menu__sidebarNavResponsive a {
-  float: none;
-  display: block;
-  text-align: left;
-}
-
+/* positioning links of sidenavbar */
+.menu__sidebarNavResponsive a,
 .menu__sidebarNavResponsive .sidebarNav__subheading {
   float: none;
   display: block;
   text-align: left;
 }
 
+/* Assigning flex type and its properties to the sidenavbar */
 .menu__sidebarNavResponsive {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: var(--clr-light);
+  background-color: var(--clr-primary-100);
   padding-left: 20px;
   padding-bottom: 20px;
 }
 
+/* Adding margin to the subheading of sidenavbar */
 .menu__sidebarNavResponsive .sidebarNav__subheading {
   margin: 10px 0px;
   display: block;
 }
 
-.menu__responsive a:hover {
-  color: var(--clr-primary-300);
-  transform: scale(1.1);
-}
+/* Change color on hover over menu items */
+.menu__responsive a:hover,
 .menu__sidebarNavResponsive a:hover {
   color: var(--clr-primary-300);
   transform: scale(1.1);
 }
 
+/* setting flex type and its properties to the main container*/
 .mainContainer {
   display: flex;
   flex-direction: column;
 }
 /************ color swatch styles*********************/
 
+/* Set flex properties for swatch container to display color swatches*/
 .swatchContainer__swatch {
   margin: 20px;
   display: flex;
@@ -119,6 +134,7 @@ a {
   padding-bottom: 20px;
 }
 
+/* Setting width, height and other properties of swatch box*/
 .swatch__colorBox {
   height: 200px;
   width: 400px;
@@ -128,75 +144,93 @@ a {
   text-align: center;
 }
 
+/* Add margin to swatch container */
 .swatch__attributes {
   margin-top: 20px;
 }
 /************* typography styles ********************/
 
+/* Add margin to typography container */
 .typographyContainer__fonts {
   margin: 20px;
 }
 
+/* Add background color to typography container */
 .background {
   color: var(--clr-secondary-300);
 }
 
+/* Add width and border properties for table */
 .table {
   border-collapse: collapse;
   width: 100%;
   border: 1px solid var(--clr-primary-400);
 }
 
+/* Add padding and positioning for table content */
 th,
 td {
   text-align: left;
   padding: 8px;
 }
 
+/* Add different color for alternate rows in table */
 tr:nth-child(even) {
   background-color: var(--clr-accent-100);
 }
 
+/* Set color for table headings */
 th {
   background-color: var(--clr-primary-300);
   color: var(--clr-secondary-200);
 }
 
+/* Add margin for displayed utility classes and fonts */
 .utilityClasses,
 .fonts {
   margin: 20px;
 }
 
 /*********************************/
+
+/************************ Styles for Desktop View *********************/
 @media screen and (min-width: 550px) {
   /***** Top navbar styles for  desktop **********/
+
+  /* Add padding for topnavbar */
   .c-menu {
     padding: 20px;
     overflow: hidden;
   }
 
+  /* Display and position menu items */
   .c-menu a:not(:first-child) {
     display: block;
     float: right;
-
     padding: 0px 16px;
     font-size: 17px;
   }
 
+  /* Hide hamburger icon */
   .c-menu a.icon {
     display: none;
   }
+
+  /* Add Hover state for menu items */
   .c-menu a:hover {
     color: var(--clr-primary-300);
     transform: scale(1.1);
   }
 
   /***** Side navbar styles for  desktop **********/
+
+  /* Add padding for topnavbar */
   .c-menu__sidebarNav a:hover {
     color: var(--clr-primary-300);
     transform: scale(1.1);
   }
 
+  /* Assigning flex type to sidenavbar and other properties*/
   .c-menu__sidebarNav {
     display: flex;
     flex-direction: column;
@@ -207,6 +241,7 @@ th {
     height: 100vw;
   }
 
+  /* Position menu items for sidenavbar*/
   .c-menu__sidebarNav a {
     float: left;
     display: inline;
@@ -214,11 +249,13 @@ th {
     padding-left: 0px;
   }
 
+  /* Add margins for subheadings in sidenavbar*/
   .sidebarNav__subheading {
     margin: 10px 0px;
     display: block;
   }
 
+  /* Assign flex type to main container*/
   .mainContainer {
     display: flex;
     flex-direction: row;
