@@ -115,6 +115,8 @@ a {
   justify-content: space-between;
   border: 1px solid var(--clr-primary-400);
   border-radius: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .swatch__colorBox {
