@@ -115,7 +115,7 @@ a {
 }
 
 /* setting flex type and its properties to the main container*/
-.mainContainer {
+.o-mainContainer {
   display: flex;
   flex-direction: column;
 }
@@ -151,7 +151,7 @@ a {
 /************* typography styles ********************/
 
 /* Add margin to typography container */
-.typographyContainer__fonts {
+.c-typographyContainer__fonts {
   margin: 20px;
 }
 
@@ -161,7 +161,7 @@ a {
 }
 
 /* Add width and border properties for table */
-.table {
+.c-table {
   border-collapse: collapse;
   width: 100%;
   border: 1px solid var(--clr-primary-400);
@@ -186,8 +186,8 @@ th {
 }
 
 /* Add margin for displayed utility classes and fonts */
-.utilityClasses,
-.fonts {
+.c-utilityClasses,
+.c-fonts {
   margin: 20px;
 }
 
@@ -256,7 +256,7 @@ th {
   }
 
   /* Assign flex type to main container*/
-  .mainContainer {
+  .o-mainContainer {
     display: flex;
     flex-direction: row;
   }
