@@ -548,83 +548,65 @@ a {
 /************** Margin top classes **********/
 
 .l-mt-0-25 {
-  margin-left: 0.25rem; /* 4px */
+  margin-top: 0.25rem; /* 4px */
 }
 
 .l-mt-0-5 {
-  margin-left: 0.5rem; /* 8px */
+  margin-top: 0.5rem; /* 8px */
 }
 
 .l-mt-0-75 {
-  margin-left: 0.75rem; /* 12px */
+  margin-top: 0.75rem; /* 12px */
 }
 
 .l-mt-1 {
-  margin-left: 1rem; /* 16px */
+  margin-top: 1rem; /* 16px */
 }
 
 .l-mt-1-25 {
-  margin-left: 1.25rem; /* 20px */
+  margin-top: 1.25rem; /* 20px */
 }
 
 .l-mt-1-5 {
-  margin-left: 1.5rem; /* 24px */
+  margin-top: 1.5rem; /* 24px */
 }
 
 .l-mt-1-75 {
-  margin-left: 1.75rem; /* 28px */
+  margin-top: 1.75rem; /* 28px */
 }
 
 .l-mt-2 {
-  margin-left: 2rem; /* 32px */
+  margin-top: 2rem; /* 32px */
 }
 
 .l-mt-2-25 {
-  margin-left: 2.25rem; /* 36px */
+  margin-top: 2.25rem; /* 36px */
 }
 
 .l-mt-2-5 {
-  margin-left: 2.5rem; /* 40px */
+  margin-top: 2.5rem; /* 40px */
 }
 
 .l-mt-2-75 {
-  margin-left: 2.75rem; /* 44px */
+  margin-top: 2.75rem; /* 44px */
 }
 
 .l-mt-3 {
-  margin-left: 3rem; /* 48px */
-}
-
-.l-mt-3-25 {
-  margin-left: 3.25rem; /* 52px */
+  margin-top: 3rem; /* 48px */
 }
 
 .l-mt-3-5 {
-  margin-left: 3.5rem; /* 56px */
-}
-
-.l-mt-3-75 {
-  margin-left: 3.75rem; /* 60px */
+  margin-top: 3.5rem; /* 56px */
 }
 
 .l-mt-4 {
-  margin-left: 4rem; /* 64px */
-}
-
-.l-mt-4-25 {
-  margin-left: 4.25rem; /* 68px */
+  margin-top: 4rem; /* 64px */
 }
 
 .l-mt-4-5 {
-  margin-left: 4.5rem; /* 72px */
-}
-
-.l-mt-4-75 {
-  margin-left: 4.75rem; /* 76px */
+  margin-top: 4.5rem; /* 72px */
 }
 
 .l-mt-5 {
-  margin-left: 5rem; /* 80px */
+  margin-top: 5rem; /* 80px */
 }
-
-/**************************/
