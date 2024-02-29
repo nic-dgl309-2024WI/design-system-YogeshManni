@@ -772,3 +772,85 @@ a {
 .l-ml-5 {
   margin-left: 5rem; /* 80px */
 }
+
+/* Margin right utilities classes */
+
+.l-mr-0-25 {
+  margin-right: 0.25rem; /* 4px */
+}
+
+.l-mr-0-5 {
+  margin-right: 0.5rem; /* 8px */
+}
+
+.l-mr-0-75 {
+  margin-right: 0.75rem; /* 12px */
+}
+
+.l-mr-1 {
+  margin-right: 1rem; /* 16px */
+}
+
+.l-mr-1-25 {
+  margin-right: 1.25rem; /* 20px */
+}
+
+.l-mr-1-5 {
+  margin-right: 1.5rem; /* 24px */
+}
+
+.l-mr-1-75 {
+  margin-right: 1.75rem; /* 28px */
+}
+
+.l-mr-2 {
+  margin-right: 2rem; /* 32px */
+}
+
+.l-mr-2-25 {
+  margin-right: 2.25rem; /* 36px */
+}
+
+.l-mr-2-5 {
+  margin-right: 2.5rem; /* 40px */
+}
+
+.l-mr-2-75 {
+  margin-right: 2.75rem; /* 44px */
+}
+
+.l-mr-3 {
+  margin-right: 3rem; /* 48px */
+}
+
+.l-mr-3-25 {
+  margin-right: 3.25rem; /* 52px */
+}
+
+.l-mr-3-5 {
+  margin-right: 3.5rem; /* 56px */
+}
+
+.l-mr-3-75 {
+  margin-right: 3.75rem; /* 60px */
+}
+
+.l-mr-4 {
+  margin-right: 4rem; /* 64px */
+}
+
+.l-mr-4-25 {
+  margin-right: 4.25rem; /* 68px */
+}
+
+.l-mr-4-5 {
+  margin-right: 4.5rem; /* 72px */
+}
+
+.l-mr-4-75 {
+  margin-right: 4.75rem; /* 76px */
+}
+
+.l-mr-5 {
+  margin-right: 5rem; /* 80px */
+}
