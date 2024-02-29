@@ -1593,131 +1593,244 @@ a {
 }
 
 /************ Add flex utility classes ************/
-
+/* Flex Container */
 .l-flex {
-  display: flex;
+  display: flex; /* Make the container a flex container */
 }
 
+/* Flex Direction */
 .u-row {
-  flex-direction: row;
+  flex-direction: row; /* Arrange flex items horizontally */
 }
 
 .u-column {
-  flex-direction: column;
+  flex-direction: column; /* Arrange flex items vertically */
 }
 
+/* Flex Wrap */
 .u-wrap {
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
 }
 
 .u-nowrap {
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; /* Prevent flex items from wrapping */
 }
 
 .u-wrap-reverse {
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse; /* Reverse the wrapping direction */
 }
 
+/* Justify Content */
 .u-justify-start {
-  justify-content: flex-start;
+  justify-content: flex-start; /* Align flex items to the start of the flex container */
 }
 
 .u-justify-end {
-  justify-content: flex-end;
+  justify-content: flex-end; /* Align flex items to the end of the flex container */
 }
 
 .u-justify-center {
-  justify-content: center;
+  justify-content: center; /* Center align flex items along the main axis */
 }
 
 .u-justify-between {
-  justify-content: space-between;
+  justify-content: space-between; /* Distribute flex items evenly with space between */
 }
 
 .u-justify-around {
-  justify-content: space-around;
+  justify-content: space-around; /* Distribute flex items evenly with space around */
 }
 
+/* Align Items */
 .u-align-start {
-  align-items: flex-start;
+  align-items: flex-start; /* Align flex items to the start of the cross axis */
 }
 
 .u-align-end {
-  align-items: flex-end;
+  align-items: flex-end; /* Align flex items to the end of the cross axis */
 }
 
 .u-align-center {
-  align-items: center;
+  align-items: center; /* Center align flex items along the cross axis */
 }
 
 .u-align-baseline {
-  align-items: baseline;
+  align-items: baseline; /* Align flex items to their baseline */
 }
 
 .u-align-stretch {
-  align-items: stretch;
+  align-items: stretch; /* Stretch flex items to fill the container along the cross axis */
 }
 
+/* Align Content */
 .u-align-start {
-  align-content: flex-start;
+  align-content: flex-start; /* Align content to the start of the cross axis */
 }
 
 .u-align-end {
-  align-content: flex-end;
+  align-content: flex-end; /* Align content to the end of the cross axis */
 }
 
 .u-align-center {
-  align-content: center;
+  align-content: center; /* Center align content along the cross axis */
 }
 
 .u-align-between {
-  align-content: space-between;
+  align-content: space-between; /* Distribute content evenly with space between */
 }
 
 .u-align-around {
-  align-content: space-around;
+  align-content: space-around; /* Distribute content evenly with space around */
 }
 
 .u-align-stretch {
-  align-content: stretch;
+  align-content: stretch; /* Stretch content to fill the container along the cross axis */
 }
 
+/* Align Self */
 .u-align-self-auto {
-  align-self: auto;
+  align-self: auto; /* Reset alignment for individual flex items */
 }
 
 .u-align-self-start {
-  align-self: flex-start;
+  align-self: flex-start; /* Align individual flex items to the start of the cross axis */
 }
 
 .u-align-self-end {
-  align-self: flex-end;
+  align-self: flex-end; /* Align individual flex items to the end of the cross axis */
 }
 
 .u-align-self-center {
-  align-self: center;
+  align-self: center; /* Center align individual flex items along the cross axis */
 }
 
 .u-align-self-baseline {
-  align-self: baseline;
+  align-self: baseline; /* Align individual flex items to their baseline */
 }
 
 .u-align-self-stretch {
-  align-self: stretch;
+  align-self: stretch; /* Stretch individual flex items to fill the container along the cross axis */
 }
 
+/* Flex Grow and Shrink */
 .u-grow-0 {
-  flex-grow: 0;
+  flex-grow: 0; /* Prevent flex items from growing */
 }
 
 .u-grow-1 {
-  flex-grow: 1;
+  flex-grow: 1; /* Allow flex items to grow to fill available space */
 }
 
 .u-shrink-0 {
-  flex-shrink: 0;
+  flex-shrink: 0; /* Prevent flex items from shrinking */
 }
 
 .u-shrink-1 {
-  flex-shrink: 1;
+  flex-shrink: 1; /* Allow flex items to shrink if necessary */
+}
+
+/*********** Grid classes ***************/
+
+/* Grid Container */
+.l-grid {
+  display: grid; /* Make the container a grid container */
+}
+
+/* Grid Columns */
+.u-cols-auto {
+  grid-template-columns: auto; /* Automatically size columns based on content */
+}
+
+.u-cols-fr {
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(0, 1fr)
+  ); /* Fluidly size columns to fill available space */
+}
+
+/* Grid Rows */
+.u-rows-auto {
+  grid-template-rows: auto; /* Automatically size rows based on content */
+}
+
+.u-rows-fr {
+  grid-template-rows: repeat(
+    auto-fit,
+    minmax(0, 1fr)
+  ); /* Fluidly size rows to fill available space */
+}
+
+/* Grid Gap */
+.u-gap-0 {
+  gap: 0; /* No gap between grid items */
+}
+
+.u-gap-1 {
+  gap: 0.25rem; /* 4px gap between grid items */
+}
+
+.u-gap-2 {
+  gap: 0.5rem; /* 8px gap between grid items */
+}
+
+.u-gap-3 {
+  gap: 0.75rem; /* 12px gap between grid items */
+}
+
+.u-gap-4 {
+  gap: 1rem; /* 16px gap between grid items */
+}
+
+.u-gap-5 {
+  gap: 1.25rem; /* 20px gap between grid items */
+}
+
+/* Grid Gap X */
+.u-gap-x-0 {
+  column-gap: 0; /* No horizontal gap between grid columns */
+}
+
+.u-gap-x-1 {
+  column-gap: 0.25rem; /* 4px horizontal gap between grid columns */
+}
+
+.u-gap-x-2 {
+  column-gap: 0.5rem; /* 8px horizontal gap between grid columns */
+}
+
+.u-gap-x-3 {
+  column-gap: 0.75rem; /* 12px horizontal gap between grid columns */
+}
+
+.u-gap-x-4 {
+  column-gap: 1rem; /* 16px horizontal gap between grid columns */
+}
+
+.u-gap-x-5 {
+  column-gap: 1.25rem; /* 20px horizontal gap between grid columns */
+}
+
+/* Grid Gap Y */
+.u-gap-y-0 {
+  row-gap: 0; /* No vertical gap between grid rows */
+}
+
+.u-gap-y-1 {
+  row-gap: 0.25rem; /* 4px vertical gap between grid rows */
+}
+
+.u-gap-y-2 {
+  row-gap: 0.5rem; /* 8px vertical gap between grid rows */
+}
+
+.u-gap-y-3 {
+  row-gap: 0.75rem; /* 12px vertical gap between grid rows */
+}
+
+.u-gap-y-4 {
+  row-gap: 1rem; /* 16px vertical gap between grid rows */
+}
+
+.u-gap-y-5 {
+  row-gap: 1.25rem; /* 20px vertical gap between grid rows */
 }
