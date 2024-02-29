@@ -216,3 +216,167 @@ a {
 .u-btntext-bkd {
   background-color: var(--clr-secondary-200);
 }
+
+/****** Spacing utility classes ************** */
+
+/* Margin classes */
+
+.l-m-0-25 {
+  margin: 0.25rem; /* 4px */
+}
+
+.l-m-0-5 {
+  margin: 0.5rem; /* 8px */
+}
+
+.l-m-0-75 {
+  margin: 0.75rem; /* 12px */
+}
+
+.l-m-1 {
+  margin: 1rem; /* 16px */
+}
+
+.l-m-1-25 {
+  margin: 1.25rem; /* 20px */
+}
+
+.l-m-1-5 {
+  margin: 1.5rem; /* 24px */
+}
+
+.l-m-1-75 {
+  margin: 1.75rem; /* 28px */
+}
+
+.l-m-2 {
+  margin: 2rem; /* 32px */
+}
+
+.l-m-2-25 {
+  margin: 2.25rem; /* 36px */
+}
+
+.l-m-2-5 {
+  margin: 2.5rem; /* 40px */
+}
+
+.l-m-2-75 {
+  margin: 2.75rem; /* 44px */
+}
+
+.l-m-3 {
+  margin: 3rem; /* 48px */
+}
+
+.l-m-3-25 {
+  margin: 3.25rem; /* 52px */
+}
+
+.l-m-3-5 {
+  margin: 3.5rem; /* 56px */
+}
+
+.l-m-3-75 {
+  margin: 3.75rem; /* 60px */
+}
+
+.l-m-4 {
+  margin: 4rem; /* 64px */
+}
+
+.l-m-4-25 {
+  margin: 4.25rem; /* 68px */
+}
+
+.l-m-4-5 {
+  margin: 4.5rem; /* 72px */
+}
+
+.l-m-4-75 {
+  margin: 4.75rem; /* 76px */
+}
+
+.l-m-5 {
+  margin: 5rem; /* 80px */
+}
+
+.l-m-5-25 {
+  margin: 5.25rem; /* 84px */
+}
+
+.l-m-5-5 {
+  margin: 5.5rem; /* 88px */
+}
+
+.l-m-5-75 {
+  margin: 5.75rem; /* 92px */
+}
+
+.l-m-6 {
+  margin: 6rem; /* 96px */
+}
+
+.l-m-6-25 {
+  margin: 6.25rem; /* 100px */
+}
+
+.l-m-6-5 {
+  margin: 6.5rem; /* 104px */
+}
+
+.l-m-6-75 {
+  margin: 6.75rem; /* 108px */
+}
+
+.l-m-7 {
+  margin: 7rem; /* 112px */
+}
+
+.l-m-7-25 {
+  margin: 7.25rem; /* 116px */
+}
+
+.l-m-7-5 {
+  margin: 7.5rem; /* 120px */
+}
+
+.l-m-7-75 {
+  margin: 7.75rem; /* 124px */
+}
+
+.l-m-8 {
+  margin: 8rem; /* 128px */
+}
+
+.l-m-8-25 {
+  margin: 8.25rem; /* 132px */
+}
+
+.l-m-8-5 {
+  margin: 8.5rem; /* 136px */
+}
+
+.l-m-8-75 {
+  margin: 8.75rem; /* 140px */
+}
+
+.l-m-9 {
+  margin: 9rem; /* 144px */
+}
+
+.l-m-9-25 {
+  margin: 9.25rem; /* 148px */
+}
+
+.l-m-9-5 {
+  margin: 9.5rem; /* 152px */
+}
+
+.l-m-9-75 {
+  margin: 9.75rem; /* 156px */
+}
+
+.l-m-10 {
+  margin: 10rem; /* 160px */
+}
