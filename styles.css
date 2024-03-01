@@ -1838,42 +1838,42 @@ a {
 /*********** container classes *****************/
 
 /* Mobile-first approach */
-.container,
-.container-fluid {
+.l-container,
+.l-container-fluid {
   max-width: 100%; /* Default to full width on mobile */
   margin-right: auto;
   margin-left: auto;
 }
 
 /* Centered container */
-.container-centered {
+.l-container-centered {
   margin: 0 auto; /* Center the container horizontally */
 }
 
 /* Constrained width container */
-.container-sm {
+.l-container-sm {
   max-width: 576px; /* Constrained width for small devices */
 }
 
-.container-md {
+.l-container-md {
   max-width: 768px; /* Constrained width for medium devices */
 }
 
 /* Media query for desktop */
 @media (min-width: 768px) {
-  .container-fluid {
+  .l-container-fluid {
     max-width: 100%; /* Reset to full width on desktop */
   }
 
-  .container {
+  .l-container {
     max-width: 960px;
   }
 
-  .container-lg {
+  .l-container-lg {
     max-width: 992px; /* Constrained width for large devices */
   }
 
-  .container-xl {
+  .l-container-xl {
     max-width: 1200px; /* Constrained width for extra-large devices */
   }
 }
