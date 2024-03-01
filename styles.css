@@ -1834,3 +1834,46 @@ a {
 .u-gap-y-5 {
   row-gap: 1.25rem; /* 20px vertical gap between grid rows */
 }
+
+/*********** container classes *****************/
+
+/* Mobile-first approach */
+.container,
+.container-fluid {
+  max-width: 100%; /* Default to full width on mobile */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Centered container */
+.container-centered {
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Constrained width container */
+.container-sm {
+  max-width: 576px; /* Constrained width for small devices */
+}
+
+.container-md {
+  max-width: 768px; /* Constrained width for medium devices */
+}
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+  .container-fluid {
+    max-width: 100%; /* Reset to full width on desktop */
+  }
+
+  .container {
+    max-width: 960px;
+  }
+
+  .container-lg {
+    max-width: 992px; /* Constrained width for large devices */
+  }
+
+  .container-xl {
+    max-width: 1200px; /* Constrained width for extra-large devices */
+  }
+}
