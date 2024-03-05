@@ -1859,6 +1859,40 @@ a {
   max-width: 768px; /* Constrained width for medium devices */
 }
 
+/* Set the maximum width of elements to 100% of their container */
+.l-max-width {
+  max-width: 100%;
+}
+
+/* Set the maximum width of elements to 700px */
+.l-max-width-700 {
+  max-width: 700px;
+}
+
+/* Set the maximum width of elements to 1250px */
+.l-max-width-1250 {
+  max-width: 1250px;
+}
+
+/* Set the maximum width of elements to 1600px */
+.l-max-width-1600 {
+  max-width: 1600px;
+}
+
+/* Set the width of elements to 100% of their container */
+.l-full-width {
+  width: 100%;
+}
+
+/* Set the width of elements to 50% of their container */
+.l-full-width-50 {
+  width: 50%;
+}
+
+/* Set the width of elements to 75% of their container */
+.l-full-width-75 {
+  width: 75%;
+}
 /* Media query for desktop */
 @media (min-width: 768px) {
   .l-container-fluid {
