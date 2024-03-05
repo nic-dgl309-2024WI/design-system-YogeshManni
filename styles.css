@@ -1894,7 +1894,7 @@ a {
   width: 75%;
 }
 /* Media query for desktop */
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   .l-container-fluid {
     max-width: 100%; /* Reset to full width on desktop */
   }
