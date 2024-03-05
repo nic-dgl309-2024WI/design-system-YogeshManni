@@ -1603,7 +1603,7 @@ a {
   flex-direction: row; /* Arrange flex items horizontally */
 }
 
-.u-column {
+.u-col {
   flex-direction: column; /* Arrange flex items vertically */
 }
 
@@ -1866,6 +1866,7 @@ a {
   }
 
   .l-container {
+    margin: 0 auto;
     max-width: 960px;
   }
 
@@ -1876,4 +1877,25 @@ a {
   .l-container-xl {
     max-width: 1200px; /* Constrained width for extra-large devices */
   }
+}
+
+/* Styling for a container with spacing */
+.l-spacingContainer {
+  /* Set the width and height */
+  width: 300px;
+  height: auto;
+  /* Add border */
+  border: 3px solid var(--clr-primary-400);
+  /* Add border radius for rounded corners */
+  border-radius: 20px;
+  /* Add padding inside the container */
+  padding: 20px;
+}
+
+/* Styling for individual div elements inside the container */
+.l-spacingContainer > div {
+  /* Add a bottom border to separate each div */
+  border-bottom: 2px solid var(--clr-primary-400);
+  /* Add margin to create spacing between div elements */
+  margin: 10px 0px;
 }
