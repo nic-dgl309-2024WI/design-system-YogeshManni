@@ -1899,3 +1899,23 @@ a {
   /* Add margin to create spacing between div elements */
   margin: 10px 0px;
 }
+
+.l-smContainer {
+  /* Set the width and height */
+  width: 400px;
+  height: auto;
+  /* Add border */
+  border: 3px solid var(--clr-primary-400);
+  /* Add border radius for rounded corners */
+  border-radius: 20px;
+  /* Add padding inside the container */
+  padding: 20px;
+}
+
+/* Styling for individual div elements inside the container */
+.l-smContainer > div {
+  /* Add a bottom border to separate each div */
+  border-bottom: 2px solid var(--clr-primary-400);
+  /* Add margin to create spacing between div elements */
+  margin: 10px 0px;
+}
