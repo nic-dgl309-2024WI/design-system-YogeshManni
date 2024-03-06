@@ -194,7 +194,7 @@ th {
 /*********************************/
 
 /************************ Styles for Desktop View *********************/
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 1200px) {
   /***** Top navbar styles for  desktop **********/
 
   /* Add padding for topnavbar */
