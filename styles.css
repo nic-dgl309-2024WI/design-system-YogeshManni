@@ -1900,8 +1900,8 @@ a {
   }
 
   .l-container {
+    max-width: 1600px;
     margin: 0 auto;
-    max-width: 960px;
   }
 
   .l-container-lg {
@@ -1952,4 +1952,10 @@ a {
   border-bottom: 2px solid var(--clr-primary-400);
   /* Add margin to create spacing between div elements */
   margin: 10px 0px;
+}
+
+/**** height classes ***/
+
+.h-100 {
+  height: 100px;
 }
