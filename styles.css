@@ -1849,8 +1849,7 @@ a {
 .l-container,
 .l-container-fluid {
   max-width: 100%; /* Default to full width on mobile */
-  margin-right: auto;
-  margin-left: auto;
+  margin: 100px auto 0px auto;
 }
 
 /* Centered container */
@@ -1909,7 +1908,7 @@ a {
 
   .l-container {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 100px auto 0px auto;
   }
 
   .l-container-lg {
@@ -1967,4 +1966,14 @@ a {
 
 .h-100 {
   height: 100px;
+}
+
+/***** width classes */
+.w-full {
+  width: 100%;
+}
+/*** position classes ***/
+
+.u-pos-fixed {
+  position: fixed;
 }
