@@ -260,4 +260,15 @@ th {
     display: flex;
     flex-direction: row;
   }
+  .o-swatchContainer {
+    display: flex;
+    width: 900px;
+
+    flex-direction: column;
+  }
+
+  .c-swatchContainer__combo {
+    display: flex;
+    flex-direction: row;
+  }
 }
