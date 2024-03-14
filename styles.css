@@ -76,6 +76,7 @@ li {
 /* set text-decoration to none for links */
 a {
   text-decoration: none;
+  color: var(--clr-secondary-100);
 }
 
 /* set color to active link */

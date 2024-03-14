@@ -8,6 +8,7 @@ a {
 .target {
   color: var(--clr-primary-300);
   background-color: var(--clr-primary-200);
+  padding: 5px;
 }
 
 /* Add background color  and padding to top navbar */
