@@ -1990,3 +1990,9 @@ a {
 }
 
 /******/
+
+@media screen and (min-width: 1200px) {
+  .l-lg-ml-2 {
+    margin-left: 2rem; /* 32px */
+  }
+}
