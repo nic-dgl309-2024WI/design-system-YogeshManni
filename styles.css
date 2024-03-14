@@ -1974,7 +1974,7 @@ a {
 }
 
 .w-60 {
-  width: 60ch;
+  max-width: 60ch;
 }
 /*** position classes ***/
 
