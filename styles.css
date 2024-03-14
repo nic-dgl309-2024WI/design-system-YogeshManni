@@ -1981,3 +1981,11 @@ a {
 .u-pos-fixed {
   position: fixed;
 }
+
+/**** miscellaneous utility classes ****/
+
+.u-center {
+  text-align: center;
+}
+
+/******/
