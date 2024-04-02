@@ -15,6 +15,7 @@ a {
 .c-menu {
   background-color: var(--clr-primary-100);
   padding: 20px;
+  z-index: 999;
 }
 
 /* Hide menu items for mobile view */

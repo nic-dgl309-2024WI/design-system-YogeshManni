@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Design System</title>
+    <title>Outback Nursery</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -16,8 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+
     <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
     <!------ Top Navbar --------->
@@ -41,6 +42,189 @@
         <i class="fa fa-bars"></i>
       </a>
     </div>
-    <div class="l-container-lg"></div>
+
+    <!----- carousel ---->
+    <div class="l-hero">
+      <div class="l-carousel">
+        <ul class="l-carousel__slides">
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="l-slide-container">
+            <div class="c-slide-image">
+              <img src="images/carousel1.jpg" />
+              <p class="c-heading1 u-fs-h1">Deciduous trees and shrubs</p>
+              <p class="c-heading2 u-fs-h1">
+                Japanese and assorted maples, Witch Hazel, Dogwood, Beech, Oak,
+                Ash
+              </p>
+            </div>
+            <div class="l-carousel-controls">
+              <label for="img-3" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-2" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-2" />
+          <li class="l-slide-container">
+            <div class="c-slide-image">
+              <img src="images/carousel2.jpg" />
+            </div>
+            <div class="l-carousel-controls">
+              <label for="img-1" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-3" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <input type="radio" name="radio-buttons" id="img-3" />
+          <li class="l-slide-container">
+            <div class="c-slide-image">
+              <img src="images/carousel3.jpg" />
+            </div>
+            <div class="l-carousel-controls">
+              <label for="img-2" class="prev-slide">
+                <span>&lsaquo;</span>
+              </label>
+              <label for="img-1" class="next-slide">
+                <span>&rsaquo;</span>
+              </label>
+            </div>
+          </li>
+          <div class="c-carousel-dots">
+            <label for="img-1" class="c-carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="c-carousel-dot" id="img-dot-2"></label>
+            <label for="img-3" class="c-carousel-dot" id="img-dot-3"></label>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <!--------------->
+    <div class="l-container-lgout">
+      <!-- Products Section -->
+      <h2 class="u-center">Our Products</h2>
+      <div class="boxes">
+        <div class="box">
+          <img class="image" src="images/cedar-pro.jpg" />
+          <div class="content-wrapper">
+            <a href="#"> Cedar</a>
+          </div>
+        </div>
+        <div class="box">
+          <img class="image" src="images/Cercis-pro.jpg" />
+          <div class="content-wrapper">
+            <a href="#">Cercis</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="image" src="images/Cotinus-pro.jpg" />
+          <div class="content-wrapper">
+            <a href="#">Cotinus</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="image" src="images/dogwood-pro.jpg" />
+          <div class="content-wrapper">
+            <a href="#">Dogwood</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="image" src="images/lilic-pro.jpg" />
+          <div class="content-wrapper">
+            <a href="#">Lilic</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img class="image" src="images/hibiscus-pro.jpg" />
+          <div class="content-wrapper">
+            <a href="#">Hibiscus</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tips Section -->
+
+      <div class="l-tipsSection">
+        <div class="l-tips">
+          <div class="l-tips__img">
+            <img class="image" src="images/hibiscus-pro.jpg" />
+            <span> Great Soil</span>
+          </div>
+          <p class="l-tips_info">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+            doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+            debitis incidunt.
+          </p>
+        </div>
+
+        <div class="l-tips">
+          <div class="l-tips__img">
+            <img class="image" src="images/hibiscus-pro.jpg" />
+            <span> Great Soil</span>
+          </div>
+          <p class="l-tips_info">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+            doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+            debitis incidunt.
+          </p>
+        </div>
+
+        <div class="l-tips">
+          <div class="l-tips__img">
+            <img class="image" src="images/hibiscus-pro.jpg" />
+            <span> Great Soil</span>
+          </div>
+          <p class="l-tips_info">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+            doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+            debitis incidunt.
+          </p>
+        </div>
+
+        <div class="l-tips">
+          <div class="l-tips__img">
+            <img class="image" src="images/hibiscus-pro.jpg" />
+            <span> Great Soil</span>
+          </div>
+          <p class="l-tips_info">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+            doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+            debitis incidunt.
+          </p>
+        </div>
+
+        <div class="l-tips">
+          <div class="l-tips__img">
+            <img class="image" src="images/hibiscus-pro.jpg" />
+            <span> Great Soil</span>
+          </div>
+          <p class="l-tips_info">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+            doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+            debitis incidunt.
+          </p>
+        </div>
+
+        <div class="l-tips">
+          <div class="l-tips__img">
+            <img class="image" src="images/hibiscus-pro.jpg" />
+            <span> Great Soil</span>
+          </div>
+          <p class="l-tips_info">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+            doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+            debitis incidunt.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
