@@ -2230,10 +2230,10 @@ ul.l-carousel__slides input {
 .l-tips {
   display: flex;
   flex-direction: column;
-
-  height: auto;
-  width: 50ch;
+  height: 40ch;
+  width: 40ch;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  padding: 1rem;
 }
 .l-tips__img {
   display: flex;
@@ -2247,4 +2247,8 @@ ul.l-carousel__slides input {
 .l-tipsSection {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 50px;
 }
