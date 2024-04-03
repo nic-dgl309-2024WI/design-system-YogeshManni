@@ -22,9 +22,9 @@
   </head>
   <body>
     <!------ Top Navbar --------->
-    <div class="c-menu u-ff-sans w-full u-pos-fixed" id="navbar">
-      <span class="menu__logo u-fw-bold target"
-        ><a href="index.html">Outback Nursery</a></span
+    <div class="c-menu u-ff-sans w-full u-pos-fixed u-transparent" id="navbar">
+      <span class="menu__logo u-fw-bold target u-text-sec"
+        ><a style="color: #26643b" href="index.html">Outback Nursery</a></span
       >
 
       <a class="menu_item" id="about-me" href="about-me.html">Products</a>
@@ -35,7 +35,6 @@
         >Testimonials</a
       >
       <a class="menu_item" id="contact" href="about-me.html">Contact</a>
-      <a class="menu_item" id="site" href="#site">Home</a>
 
       <!----- Hamburger toggle, calling js function on click ----->
       <a class="icon" onclick="toggleHamburger()">
@@ -51,12 +50,20 @@
           <li class="l-slide-container">
             <div class="c-slide-image">
               <img src="images/carousel1.jpg" />
-              <p class="c-heading1 u-fs-h1">Deciduous trees and shrubs</p>
-              <p class="c-heading2 u-fs-h1">
-                Japanese and assorted maples, Witch Hazel, Dogwood, Beech, Oak,
-                Ash
-              </p>
+              <div class="c-slide__text">
+                <p class="c-heading1 u-fs-h2">Deciduous trees and shrubs</p>
+                <p class="c-heading2 u-fs-h2">
+                  Japanese and assorted maples, Witch Hazel, Dogwood, Beech,
+                  Oak, Ash
+                </p>
+                <div class="c-button__box">
+                  <button class="c-button__span">
+                    <span>Know Us</span>
+                  </button>
+                </div>
+              </div>
             </div>
+
             <div class="l-carousel-controls">
               <label for="img-3" class="prev-slide">
                 <span>&lsaquo;</span>
@@ -70,6 +77,18 @@
           <li class="l-slide-container">
             <div class="c-slide-image">
               <img src="images/carousel2.jpg" />
+              <div class="c-slide__text">
+                <p class="c-heading1 u-fs-h2">Deciduous trees and shrubs</p>
+                <p class="c-heading2 u-fs-h2">
+                  Japanese and assorted maples, Witch Hazel, Dogwood, Beech,
+                  Oak, Ash
+                </p>
+                <div class="c-button__box">
+                  <button class="c-button__span">
+                    <span>Know Us</span>
+                  </button>
+                </div>
+              </div>
             </div>
             <div class="l-carousel-controls">
               <label for="img-1" class="prev-slide">
@@ -84,6 +103,18 @@
           <li class="l-slide-container">
             <div class="c-slide-image">
               <img src="images/carousel3.jpg" />
+              <div class="c-slide__text">
+                <p class="c-heading1 u-fs-h2">Deciduous trees and shrubs</p>
+                <p class="c-heading2 u-fs-h2">
+                  Japanese and assorted maples, Witch Hazel, Dogwood, Beech,
+                  Oak, Ash
+                </p>
+                <div class="c-button__box">
+                  <button class="c-button__span">
+                    <span>Know Us</span>
+                  </button>
+                </div>
+              </div>
             </div>
             <div class="l-carousel-controls">
               <label for="img-2" class="prev-slide">
@@ -104,6 +135,7 @@
     </div>
 
     <!--------------->
+
     <div class="l-container-lgout">
       <!-- Products Section -->
       <section class="l-section1 l-clearfix">
@@ -165,76 +197,166 @@
           </div>
         </section>
         <div class="l-tipsSection">
-          <div class="l-tips">
-            <div class="l-tips__img">
-              <img class="image" src="images/hibiscus-pro.jpg" />
-              <span> Great Soil</span>
+          <div class="l-tipsSection__card">
+            <div class="poster">
+              <span class="l-tips__heading">Great Soil</span>
+              <img
+                class="image"
+                style="height: 100vw"
+                src="images/hibiscus-pro.jpg"
+              />
             </div>
-            <p class="l-tips_info">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
-              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
-              debitis incidunt.
-            </p>
+
+            <div class="l-tipsSection__details">
+              <div class="c-tags">
+                <span>Great Soil</span>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate veritatis quos similique impedit dolor. Reiciendis
+                  at nobis facilis quasi beatae fugiat odio molestias et maxime
+                  officia voluptatem, ipsum veritatis nesciunt consequuntur
+                  veniam illo hic modi asperiores, cupiditate voluptatibus? Cum
+                  in error dolor ea quidem quis hic odio iste neque! Cupiditate.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div class="l-tips">
-            <div class="l-tips__img">
-              <img class="image" src="images/hibiscus-pro.jpg" />
-              <span> Great Soil</span>
+          <div class="l-tipsSection__card">
+            <div class="poster">
+              <span class="l-tips__heading">Feed Plants</span>
+              <img
+                class="image"
+                style="height: 100vw"
+                src="images/hibiscus-pro.jpg"
+              />
             </div>
-            <p class="l-tips_info">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
-              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
-              debitis incidunt.
-            </p>
+
+            <div class="l-tipsSection__details">
+              <div class="c-tags">
+                <span>Feed Plants</span>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate veritatis quos similique impedit dolor. Reiciendis
+                  at nobis facilis quasi beatae fugiat odio molestias et maxime
+                  officia voluptatem, ipsum veritatis nesciunt consequuntur
+                  veniam illo hic modi asperiores, cupiditate voluptatibus? Cum
+                  in error dolor ea quidem quis hic odio iste neque! Cupiditate.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div class="l-tips">
-            <div class="l-tips__img">
-              <img class="image" src="images/hibiscus-pro.jpg" />
-              <span> Great Soil</span>
+          <div class="l-tipsSection__card">
+            <div class="poster">
+              <span class="l-tips__heading">Follow Sun</span>
+              <img
+                class="image"
+                style="height: 100vw"
+                src="images/hibiscus-pro.jpg"
+              />
             </div>
-            <p class="l-tips_info">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
-              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
-              debitis incidunt.
-            </p>
+
+            <div class="l-tipsSection__details">
+              <div class="c-tags">
+                <span>Follow Sun</span>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate veritatis quos similique impedit dolor. Reiciendis
+                  at nobis facilis quasi beatae fugiat odio molestias et maxime
+                  officia voluptatem, ipsum veritatis nesciunt consequuntur
+                  veniam illo hic modi asperiores, cupiditate voluptatibus? Cum
+                  in error dolor ea quidem quis hic odio iste neque! Cupiditate.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div class="l-tips">
-            <div class="l-tips__img">
-              <img class="image" src="images/hibiscus-pro.jpg" />
-              <span> Great Soil</span>
+          <div class="l-tipsSection__card">
+            <div class="poster">
+              <span class="l-tips__heading">Watering</span>
+              <img
+                class="image"
+                style="height: 100vw"
+                src="images/hibiscus-pro.jpg"
+              />
             </div>
-            <p class="l-tips_info">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
-              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
-              debitis incidunt.
-            </p>
+
+            <div class="l-tipsSection__details">
+              <div class="c-tags">
+                <span>Watering</span>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate veritatis quos similique impedit dolor. Reiciendis
+                  at nobis facilis quasi beatae fugiat odio molestias et maxime
+                  officia voluptatem, ipsum veritatis nesciunt consequuntur
+                  veniam illo hic modi asperiores, cupiditate voluptatibus? Cum
+                  in error dolor ea quidem quis hic odio iste neque! Cupiditate.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div class="l-tips">
-            <div class="l-tips__img">
-              <img class="image" src="images/hibiscus-pro.jpg" />
-              <span> Great Soil</span>
+          <div class="l-tipsSection__card">
+            <div class="poster">
+              <span class="l-tips__heading">Photosynthesis</span>
+              <img
+                class="image"
+                style="height: 100vw"
+                src="images/hibiscus-pro.jpg"
+              />
             </div>
-            <p class="l-tips_info">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
-              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
-              debitis incidunt.
-            </p>
+
+            <div class="l-tipsSection__details">
+              <div class="c-tags">
+                <span>Photosynthesis</span>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate veritatis quos similique impedit dolor. Reiciendis
+                  at nobis facilis quasi beatae fugiat odio molestias et maxime
+                  officia voluptatem, ipsum veritatis nesciunt consequuntur
+                  veniam illo hic modi asperiores, cupiditate voluptatibus? Cum
+                  in error dolor ea quidem quis hic odio iste neque! Cupiditate.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div class="l-tips">
-            <div class="l-tips__img">
-              <img class="image" src="images/hibiscus-pro.jpg" />
-              <span> Great Soil</span>
+          <div class="l-tipsSection__card">
+            <div class="poster">
+              <span class="l-tips__heading">Hybriding</span>
+              <img
+                class="image"
+                style="height: 100vw"
+                src="images/hibiscus-pro.jpg"
+              />
             </div>
-            <p class="l-tips_info">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
-              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
-              debitis incidunt.
-            </p>
+
+            <div class="l-tipsSection__details">
+              <div class="c-tags">
+                <span>Hybriding</span>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate veritatis quos similique impedit dolor. Reiciendis
+                  at nobis facilis quasi beatae fugiat odio molestias et maxime
+                  officia voluptatem, ipsum veritatis nesciunt consequuntur
+                  veniam illo hic modi asperiores, cupiditate voluptatibus? Cum
+                  in error dolor ea quidem quis hic odio iste neque! Cupiditate.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
