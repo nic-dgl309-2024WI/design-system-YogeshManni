@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outback Nursery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!------ Top Navbar --------->
+    <div class="c-menu u-ff-sans w-full u-pos-fixed" id="navbar">
+      <span class="menu__logo u-fw-bold target"
+        ><a href="index.html">Outback Nursery</a></span
+      >
+
+      <a class="menu_item" id="about-me" href="about-me.html">Products</a>
+
+      <a class="menu_item" id="g-tips" href="about-me.html">Gardening Tips</a>
+
+      <a class="menu_item" id="testmonials" href="about-me.html"
+        >Testimonials</a
+      >
+      <a class="menu_item" id="contact" href="about-me.html">Contact</a>
+      <a class="menu_item" id="site" href="#site">Home</a>
+
+      <!----- Hamburger toggle, calling js function on click ----->
+      <a class="icon" onclick="toggleHamburger()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!-- linked design-system javascript file -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
