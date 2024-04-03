@@ -2602,7 +2602,10 @@ select:focus {
 }
 
 /**** products **/
-
+.l-product__container {
+  display: flex;
+  flex-direction: column;
+}
 .l-product {
   display: flex;
   justify-content: space-between;
