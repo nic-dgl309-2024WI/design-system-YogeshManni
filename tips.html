@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outback Nursery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!------ Top Navbar --------->
+    <div class="c-menu u-ff-sans w-full u-pos-fixed" id="navbar">
+      <span class="menu__logo u-fw-bold target"
+        ><a href="index.html">Outback Nursery</a></span
+      >
+
+      <a class="menu_item" id="about-me" href="about-me.html">Products</a>
+
+      <a class="menu_item" id="g-tips" href="about-me.html">Gardening Tips</a>
+
+      <a class="menu_item" id="testmonials" href="about-me.html"
+        >Testimonials</a
+      >
+      <a class="menu_item" id="contact" href="about-me.html">Contact</a>
+      <a class="menu_item" id="site" href="#site">Home</a>
+
+      <!----- Hamburger toggle, calling js function on click ----->
+      <a class="icon" onclick="toggleHamburger()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!----- hero section ---->
+    <div class="l-hero">
+      <div class="l-carousel">
+        <ul class="l-carousel__slides">
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="l-slide-container">
+            <div class="c-slide-image">
+              <img src="images/carousel1.jpg" />
+              <p class="c-heading1 u-fs-h1">Great Soil</p>
+              <p class="c-heading2 u-fs-h1">
+                Grow your own groceries ince you map the sun and choose a
+                planting strategy or pizza Gardening.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--------------->
+    <div class="l-container-lgout">
+      <!-- About Products section -->
+
+      <section class="l-product__container">
+        <div class="l-product">
+          <div class="l-product__about">
+            <section class="l-section1 l-clearfix">
+              <div class="l-textcenter">
+                <h1>Test your soil</h1>
+                <span class="c-seperator"></span>
+              </div>
+            </section>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Laboriosam at explicabo debitis modi, vel et atque voluptates
+              eligendi rerum dicta ea praesentium deleniti dolores, natus animi
+              mollitia voluptate reprehenderit quod exercitationem, excepturi
+              necessitatibus optio aut labore! Adipisci est ab aliquam
+              temporibus? Cupiditate et rerum, assumenda ex nam rem consectetur
+              exercitationem fuga eos cumque nobis architecto hic tempore
+              voluptatum officia error doloribus aut, est at, odio deserunt! Est
+              atque nam optio neque, itaque repudiandae aperiam iure,
+              reprehenderit minus qui nisi, sint illo dolorem rerum impedit
+              laudantium earum velit excepturi. Harum, enim ut dignissimos
+              sapiente amet odio eius repudiandae voluptatibus praesentium
+              dolorem.
+            </p>
+          </div>
+          <div class="l-product__image">
+            <img src="images/cedar-pro.jpg" alt="Cedar" />
+          </div>
+        </div>
+        <div class="l-product">
+          <div class="l-product__about">
+            <section class="l-section1 l-clearfix">
+              <div class="l-textcenter">
+                <h1>Amend soil with compost</h1>
+                <span class="c-seperator"></span>
+              </div>
+            </section>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Laboriosam at explicabo debitis modi, vel et atque voluptates
+              eligendi rerum dicta ea praesentium deleniti dolores, natus animi
+              mollitia voluptate reprehenderit quod exercitationem, excepturi
+              necessitatibus optio aut labore! Adipisci est ab aliquam
+              temporibus? Cupiditate et rerum, assumenda ex nam rem consectetur
+              exercitationem fuga eos cumque nobis architecto hic tempore
+              voluptatum officia error doloribus aut, est at, odio deserunt! Est
+              atque nam optio neque, itaque repudiandae aperiam iure,
+              reprehenderit minus qui nisi, sint illo dolorem rerum impedit
+              laudantium earum velit excepturi. Harum, enim ut dignissimos
+              sapiente amet odio eius repudiandae voluptatibus praesentium
+              dolorem.
+            </p>
+          </div>
+          <div class="l-product__image">
+            <img src="images/cedar-pro.jpg" alt="Cedar" />
+          </div>
+        </div>
+        <div class="l-product">
+          <div class="l-product__about">
+            <section class="l-section1 l-clearfix">
+              <div class="l-textcenter">
+                <h1>Adding chemicals</h1>
+                <span class="c-seperator"></span>
+              </div>
+            </section>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Laboriosam at explicabo debitis modi, vel et atque voluptates
+              eligendi rerum dicta ea praesentium deleniti dolores, natus animi
+              mollitia voluptate reprehenderit quod exercitationem, excepturi
+              necessitatibus optio aut labore! Adipisci est ab aliquam
+              temporibus? Cupiditate et rerum, assumenda ex nam rem consectetur
+              exercitationem fuga eos cumque nobis architecto hic tempore
+              voluptatum officia error doloribus aut, est at, odio deserunt! Est
+              atque nam optio neque, itaque repudiandae aperiam iure,
+              reprehenderit minus qui nisi, sint illo dolorem rerum impedit
+              laudantium earum velit excepturi. Harum, enim ut dignissimos
+              sapiente amet odio eius repudiandae voluptatibus praesentium
+              dolorem.
+            </p>
+          </div>
+          <div class="l-product__image">
+            <img src="images/cedar-pro.jpg" alt="Cedar" />
+          </div>
+        </div>
+      </section>
+
+      <!-------- Other tips -->
+
+      <!-- Tips Section -->
+
+      <section class="">
+        <section class="l-section1 l-clearfix">
+          <div class="l-textcenter">
+            <h1>Other Tips</h1>
+            <span class="c-seperator"></span>
+          </div>
+        </section>
+        <div class="l-tipsSection">
+          <div class="l-tips">
+            <div class="l-tips__img">
+              <img class="image" src="images/hibiscus-pro.jpg" />
+              <span> Great Soil</span>
+            </div>
+            <p class="l-tips_info">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+              debitis incidunt.
+            </p>
+          </div>
+
+          <div class="l-tips">
+            <div class="l-tips__img">
+              <img class="image" src="images/hibiscus-pro.jpg" />
+              <span> Feed plants</span>
+            </div>
+            <p class="l-tips_info">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+              debitis incidunt.
+            </p>
+          </div>
+
+          <div class="l-tips">
+            <div class="l-tips__img">
+              <img class="image" src="images/hibiscus-pro.jpg" />
+              <span> Follow Sun</span>
+            </div>
+            <p class="l-tips_info">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+              debitis incidunt.
+            </p>
+          </div>
+
+          <div class="l-tips">
+            <div class="l-tips__img">
+              <img class="image" src="images/hibiscus-pro.jpg" />
+              <span> Watering</span>
+            </div>
+            <p class="l-tips_info">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+              debitis incidunt.
+            </p>
+          </div>
+
+          <div class="l-tips">
+            <div class="l-tips__img">
+              <img class="image" src="images/hibiscus-pro.jpg" />
+              <span> Photosynthesis</span>
+            </div>
+            <p class="l-tips_info">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+              debitis incidunt.
+            </p>
+          </div>
+
+          <div class="l-tips">
+            <div class="l-tips__img">
+              <img class="image" src="images/hibiscus-pro.jpg" />
+              <span> Hybriding</span>
+            </div>
+            <p class="l-tips_info">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+              doloremque, dicta commodi beatae officia soluta! Quis, vero. Esse,
+              debitis incidunt.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!------- footer ------>
+    <footer class="l-footer">
+      <div class="l-footer__container l-row">
+        <div class="l-footer__group">
+          <div class="l-footer__col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Gardening Tips</a></li>
+              <li><a href="#">Gift cards</a></li>
+            </ul>
+          </div>
+          <div class="l-footer__col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="l-footer__col">
+            <h4>follow us</h4>
+            <div class="l-socialLinks">
+              <div>
+                <a
+                  href="https://www.facebook.com/p/Outback-Nursery-Garden-Centre-100045470087619/"
+                  ><img src="images/facebook.png" alt="facebook"
+                /></a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/outbacknursery/?hl=en"
+                  ><img src="images/instagram.png" alt="instagram"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- linked design-system javascript file -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
