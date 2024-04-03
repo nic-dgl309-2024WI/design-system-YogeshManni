@@ -2585,10 +2585,93 @@ select:focus {
     width: 50%;
     margin-bottom: 30px;
   }
+
+  .l-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+  }
 }
 
 @media (max-width: 574px) {
   .l-footer__col {
     width: 100%;
   }
+}
+
+/**** products **/
+
+.l-product {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.l-product__image > img {
+  width: 400px;
+  height: 400px;
+}
+
+/******* plants ****/
+
+.l-plants__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l-plants__list li {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-left: 4px solid #fff;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.l-plants__list li .title {
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  z-index: 1;
+  line-height: 24px;
+}
+.l-plants__list li .subtitle {
+  position: relative;
+  z-index: 1;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.l-plants__list li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+.l-plants__list li:hover {
+  color: #fff;
+}
+.l-plants__list li:hover:after {
+  width: 100%;
+  transition: width 0.3s ease;
+}
+/* Shopping */
+.l-plants__list li:after {
+  background: var(--clr-primary-300);
+}
+
+.l-plants__list li {
+  border-left-color: var(--clr-primary-300);
 }
