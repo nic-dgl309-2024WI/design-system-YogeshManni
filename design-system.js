@@ -10,6 +10,6 @@ const toggleHamburger = () => {
   } else {
     // classes for resolution higher then mobile
     topNavbar.className = "c-menu";
-    sideNavbar.className = "c-menu__sidebarNav";
+    if (sideNavbar) sideNavbar.className = "c-menu__sidebarNav";
   }
 };

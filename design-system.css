@@ -13,9 +13,11 @@ a {
 
 /* Add background color  and padding to top navbar */
 .c-menu {
-  background-color: var(--clr-primary-100);
+  /*   background-color: var(--clr-primary-100); */
   padding: 20px;
   z-index: 1000;
+  background: rgba(14, 15, 14, 0.5);
+  background-color: rgba(14, 15, 14, 0.5);
 }
 
 /* Hide menu items for mobile view */
@@ -41,8 +43,10 @@ a {
 /* positioning and adding paddding to topnavbar */
 .menu__responsive {
   position: relative;
-  background-color: var(--clr-primary-100);
+  background: rgba(14, 15, 14, 0.5);
+  background-color: rgba(14, 15, 14, 0.5);
   padding: 20px;
+  z-index: 1000;
 }
 
 /* positioning hamburger icon */
