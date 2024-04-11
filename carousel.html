@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design System</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+  </head>
+  <body>
+    <!------ Top Navbar --------->
+    <div class="c-menu u-ff-sans w-full u-pos-fixed u-transparent" id="navbar">
+      <span class="menu__logo u-fw-bold target u-text-sec"
+        ><a style="color: #26643b" href="design-system.html"
+          >Design System</a
+        ></span
+      >
+      <a class="menu_item" id="site" href="#site">Demo site</a>
+      <a class="menu_item" id="about-me" href="about-me.html">About me</a>
+
+      <!----- Hamburger toggle, calling js function on click ----->
+      <a class="icon" onclick="toggleHamburger()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!------ Side Navbar --------->
+    <div class="o-mainContainer">
+      <div
+        class="c-menu__sidebarNav u-ff-sans u-pos-fixed l-mt-4"
+        id="sideNavbar"
+      >
+        <p class="sidebarNav__subheading u-fw-bold">Branding</p>
+        <a href="colors.html">01 Colors</a>
+        <a href="typography.html">02 Typography</a>
+        <a>03 Logo</a>
+
+        <p class="sidebarNav__subheading u-fw-bold">Utilities</p>
+        <a href="spacing.html">04 Spacing</a>
+        <a href="containers.html">05 Containers</a>
+        <a>06 Images</a>
+        <a>07 Interactive</a>
+        <a>08 Feedback</a>
+
+        <p class="sidebarNav__subheading u-fw-bold">Navigation</p>
+        <a class="u-text-sec u-fw-bold" href="navbar.html">09 Navbars</a>
+        <a>10 Breadcrumbs</a>
+        <a>11 Pagination</a>
+
+        <p class="sidebarNav__subheading u-fw-bold">Blocks</p>
+        <a>12 Hero</a>
+        <a>13 Carousel</a>
+        <a>14 Slats</a>
+        <a href="footer.html">15 Footer</a>
+
+        <p class="sidebarNav__subheading u-fw-bold">Components</p>
+        <a>16 Cards</a>
+        <a>17 Forms</a>
+        <a>18 Accordion</a>
+        <a>19 Lists</a>
+      </div>
+
+      <main class="l-container">
+        <div class="c-makeSnippet l-mt-10">
+          <div class="l-carousel u-example">
+            <ul class="l-carousel__slides">
+              <input type="radio" name="radio-buttons" id="img-1" checked />
+              <li class="l-slide-container">
+                <div class="c-slide-image">
+                  <img src="images/carousel1.jpg" />
+                  <div class="c-slide__text">
+                    <p class="c-heading2 u-fs-h2">Deciduous trees and shrubs</p>
+                  </div>
+                </div>
+
+                <div class="l-carousel-controls">
+                  <label for="img-3" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-2" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-2" />
+              <li class="l-slide-container">
+                <div class="c-slide-image">
+                  <img src="images/carousel2.jpg" />
+                  <div class="c-slide__text">
+                    <p class="c-heading2 u-fs-h2">Deciduous trees and shrubs</p>
+                  </div>
+                </div>
+                <div class="l-carousel-controls">
+                  <label for="img-1" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-3" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-3" />
+              <li class="l-slide-container">
+                <div class="c-slide-image">
+                  <img src="images/carousel3.jpg" />
+                  <div class="c-slide__text">
+                    <p class="c-heading2 u-fs-h2">Deciduous trees and shrubs</p>
+                  </div>
+                </div>
+                <div class="l-carousel-controls">
+                  <label for="img-2" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-1" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <div class="c-carousel-dots">
+                <label
+                  for="img-1"
+                  class="c-carousel-dot"
+                  id="img-dot-1"
+                ></label>
+                <label
+                  for="img-2"
+                  class="c-carousel-dot"
+                  id="img-dot-2"
+                ></label>
+                <label
+                  for="img-3"
+                  class="c-carousel-dot"
+                  id="img-dot-3"
+                ></label>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- linked design-system javascript file -->
+    <script src="design-system.js"></script>
+  </body>
+</html>

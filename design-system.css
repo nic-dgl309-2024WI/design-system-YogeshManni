@@ -279,10 +279,6 @@ th {
   }
 }
 
-.c-makeSnippet {
-  border: 1px solid var(--clr-secondary-100);
-}
-
 .u-example {
   margin-top: -100px;
 }
