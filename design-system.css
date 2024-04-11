@@ -278,3 +278,17 @@ th {
     flex-direction: row;
   }
 }
+
+.c-makeSnippet {
+  border: 1px solid var(--clr-secondary-100);
+}
+
+.u-example {
+  margin-top: -100px;
+}
+
+pre {
+  background-color: var(--clr-primary-200);
+  padding: 20px;
+  border-radius: 10px;
+}

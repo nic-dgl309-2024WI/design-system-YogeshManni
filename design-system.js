@@ -13,3 +13,15 @@ const toggleHamburger = () => {
     if (sideNavbar) sideNavbar.className = "c-menu__sidebarNav";
   }
 };
+
+document.addEventListener("DOMContentLoaded", function (event) {
+  var list = document.querySelectorAll(".c-makeSnippet");
+
+  [].forEach.call(list, function (el) {
+    var snippet = el.innerHTML.replace(/</g, "&lt;");
+    snippet = snippet.replace(/ /g, "&nbsp;");
+    var code =
+      '<pre class="language-markup"><code>' + snippet + "</pre></code>";
+    el.insertAdjacentHTML("afterend", code);
+  });
+});

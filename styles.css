@@ -620,6 +620,10 @@ a {
   margin-top: 5rem; /* 80px */
 }
 
+.l-mt-10 {
+  margin-top: 10rem;
+}
+
 /********* margin bottom classes ******/
 .l-mb-0-25 {
   margin-bottom: 0.25rem; /* 4px */
@@ -1614,6 +1618,10 @@ a {
 
 .u-col {
   flex-direction: column; /* Arrange flex items vertically */
+}
+
+.u-col-rev {
+  flex-direction: column-reverse; /* Arrange flex items vertically */
 }
 
 /* Flex Wrap */
