@@ -24,4 +24,18 @@ document.addEventListener("DOMContentLoaded", function (event) {
       '<pre class="language-markup"><code>' + snippet + "</pre></code>";
     el.insertAdjacentHTML("afterend", code);
   });
+
+  const allDetails = document.querySelectorAll(".l-tips__accordion details");
+
+  allDetails.forEach((details) => {
+    details.addEventListener("toggle", (e) => {
+      if (details.open) {
+        allDetails.forEach((otherDetails) => {
+          if (otherDetails !== details) {
+            otherDetails.removeAttribute("open");
+          }
+        });
+      }
+    });
+  });
 });
