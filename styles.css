@@ -786,6 +786,10 @@ a {
   margin-left: 5rem; /* 80px */
 }
 
+.l-ml-10 {
+  margin-left: 10rem;
+}
+
 /* Margin right utilities classes */
 
 .l-mr-0-25 {
@@ -2010,6 +2014,7 @@ a {
 .u-transparent {
   background: rgba(14, 15, 14, 0.5);
 }
+
 /******/
 
 @media screen and (min-width: 1200px) {
