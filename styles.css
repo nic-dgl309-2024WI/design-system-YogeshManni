@@ -1933,7 +1933,7 @@ a {
     margin: 0 auto;
   }
 
-  .l-container-lgout {
+  .l-container__lgout {
     max-width: 1200px; /* Constrained width for large devices */
     margin: 0px auto 0px auto;
     padding-top: 80px;
@@ -2070,7 +2070,7 @@ ul.l-carousel__slides input {
   height: 100%;
 }
 
-.l-carousel-controls {
+.c-carousel__controls {
   position: absolute;
   top: 0;
   left: 0;
@@ -2081,7 +2081,7 @@ ul.l-carousel__slides input {
   color: #fff;
 }
 
-.l-carousel-controls label {
+.c-carousel__controls label {
   display: none;
   position: absolute;
   padding: 0 20px;
@@ -2090,27 +2090,27 @@ ul.l-carousel__slides input {
   cursor: pointer;
 }
 
-.c-slide-image:hover + .l-carousel-controls label {
+.c-slide-image:hover + .c-carousel__controls label {
   opacity: 0.5;
 }
 
-.l-carousel-controls label:hover {
+.c-carousel__controls label:hover {
   opacity: 1;
 }
 
-.l-carousel-controls .prev-slide {
+.c-carousel__controls .prev-slide {
   width: 49%;
   text-align: left;
   left: 0;
 }
 
-.l-carousel-controls .next-slide {
+.c-carousel__controls .next-slide {
   width: 49%;
   text-align: right;
   right: 0;
 }
 
-.c-carousel-dots {
+.c-carousel__dots {
   position: absolute;
   left: 0;
   right: 0;
@@ -2119,7 +2119,7 @@ ul.l-carousel__slides input {
   text-align: center;
 }
 
-.c-carousel-dots .c-carousel-dot {
+.c-carousel__dots .c-carousel-dot {
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -2141,17 +2141,17 @@ ul.l-carousel__slides input {
 .l-carousel__slides
   input:checked
   + .l-slide-container
-  .l-carousel-controls
+  .c-carousel__controls
   label {
   display: block;
 }
 
-.l-carousel__slides input#img-1:checked ~ .c-carousel-dots label#img-dot-1,
-.l-carousel__slides input#img-2:checked ~ .c-carousel-dots label#img-dot-2,
-.l-carousel__slides input#img-3:checked ~ .c-carousel-dots label#img-dot-3,
-.l-carousel__slides input#img-4:checked ~ .c-carousel-dots label#img-dot-4,
-.l-carousel__slides input#img-5:checked ~ .c-carousel-dots label#img-dot-5,
-.l-carousel__slides input#img-6:checked ~ .c-carousel-dots label#img-dot-6 {
+.l-carousel__slides input#img-1:checked ~ .c-carousel__dots label#img-dot-1,
+.l-carousel__slides input#img-2:checked ~ .c-carousel__dots label#img-dot-2,
+.l-carousel__slides input#img-3:checked ~ .c-carousel__dots label#img-dot-3,
+.l-carousel__slides input#img-4:checked ~ .c-carousel__dots label#img-dot-4,
+.l-carousel__slides input#img-5:checked ~ .c-carousel__dots label#img-dot-5,
+.l-carousel__slides input#img-6:checked ~ .c-carousel__dots label#img-dot-6 {
   opacity: 1;
 }
 
@@ -2348,7 +2348,7 @@ ul.l-carousel__slides input {
   align-items: center;
 }
 
-.l-quotes-slide {
+.l-quotes__slide {
   width: 33%;
   padding: 3rem;
   background-color: white;
@@ -2361,7 +2361,7 @@ ul.l-carousel__slides input {
   outline: none;
 }
 
-.l-quotes-slide--active {
+.l-quotes__slide--active {
   transform: scale(1.2);
   z-index: 10;
   opacity: 1;
