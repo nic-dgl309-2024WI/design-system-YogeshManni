@@ -2048,12 +2048,12 @@ ul.l-carousel__slides input {
   display: none;
 }
 
-.l-slide-container {
+.l-slide__container {
   display: block;
   z-index: -999;
 }
 
-.c-slide-image {
+.c-slide__image {
   display: block;
   position: absolute;
   width: 100%;
@@ -2064,7 +2064,7 @@ ul.l-carousel__slides input {
   z-index: -999;
 }
 
-.c-slide-image img {
+.c-slide__image img {
   width: auto;
   min-width: 100%;
   height: 100%;
@@ -2090,7 +2090,7 @@ ul.l-carousel__slides input {
   cursor: pointer;
 }
 
-.c-slide-image:hover + .c-carousel__controls label {
+.c-slide__image:hover + .c-carousel__controls label {
   opacity: 0.5;
 }
 
@@ -2129,7 +2129,7 @@ ul.l-carousel__slides input {
   margin: 10px;
 }
 
-.l-carousel__slides input:checked + .l-slide-container .c-slide-image {
+.l-carousel__slides input:checked + .l-slide__container .c-slide__image {
   opacity: 1;
   transform: scale(1);
   transition: opacity 1s ease-in-out;
@@ -2140,7 +2140,7 @@ ul.l-carousel__slides input {
 
 .l-carousel__slides
   input:checked
-  + .l-slide-container
+  + .l-slide__container
   .c-carousel__controls
   label {
   display: block;
@@ -2155,11 +2155,11 @@ ul.l-carousel__slides input {
   opacity: 1;
 }
 
-.l-carousel__slides input:checked + .l-slide-container .nav label {
+.l-carousel__slides input:checked + .l-slide__container .nav label {
   display: block;
 }
 
-.c-slide-image img {
+.c-slide__image img {
   opacity: 0.5;
   z-index: -1;
 }
