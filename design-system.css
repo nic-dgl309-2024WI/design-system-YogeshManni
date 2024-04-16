@@ -357,3 +357,25 @@ pre {
 .l-tips__accordion details[open] summary:before {
   content: "⏷";
 }
+
+/****** Breadcrumb *********/
+
+.c-breadcrumb__list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.c_breadcrumb__item a {
+  color: var(--clr-accent-200);
+}
+
+.c_breadcrumb__item a:not(:hover) {
+  text-decoration: none;
+}
+
+.c_breadcrumb__item:has(~ .c_breadcrumb__item.current)::after {
+  content: "/";
+  margin-inline-start: 0.5rem;
+}

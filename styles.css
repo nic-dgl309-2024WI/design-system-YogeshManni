@@ -22,6 +22,7 @@
   /* For icons and other smaller items*/
   --clr-accent-100: #e8e8e8;
 
+  --clr-accent-200: #2196f3;
   /*** font variables **/
   --heading-font-family: "Roboto", sans-serif;
   --body-font-family: "Montserrat", sans-serif;
