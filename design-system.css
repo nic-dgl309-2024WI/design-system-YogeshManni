@@ -201,10 +201,15 @@ th {
 .l-content {
   width: 40ch;
   padding-left: 30px;
+}
+
+.l-welcome {
   margin: 20px auto 0 auto;
   padding-top: 60px;
 }
-
+.l-content {
+  padding-bottom: 60px;
+}
 /************* media query for tablets ********************/
 
 @media screen and (min-width: 600px) {
