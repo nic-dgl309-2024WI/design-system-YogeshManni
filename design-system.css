@@ -197,8 +197,23 @@ th {
   margin: 20px;
 }
 
-/*********************************/
+.l-welcome,
+.l-content {
+  width: 40ch;
+  padding-left: 30px;
+  margin: 20px auto 0 auto;
+  padding-top: 60px;
+}
 
+/************* media query for tablets ********************/
+
+@media screen and (min-width: 600px) {
+  .l-welcome,
+  .l-content {
+    width: 60ch;
+    padding-left: 30px;
+  }
+}
 /************************ Styles for Desktop View *********************/
 @media screen and (min-width: 1200px) {
   /***** Top navbar styles for  desktop **********/
@@ -276,6 +291,14 @@ th {
   .c-swatchContainer__combo {
     display: flex;
     flex-direction: row;
+  }
+
+  /********* desing system homepage ******/
+
+  .l-welcome,
+  .l-content {
+    width: 80ch;
+    padding-left: 0px;
   }
 }
 
