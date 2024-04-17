@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+  </head>
+  <body>
+    <!------ Top Navbar --------->
+    <div class="c-menu u-ff-sans w-full u-pos-fixed u-transparent" id="navbar">
+      <span class="menu__logo u-fw-bold target u-text-sec"
+        ><a style="color: #26643b" href="design-system.html"
+          >Design System</a
+        ></span
+      >
+      <a class="menu_item" id="site" href="#site">Demo site</a>
+      <a class="menu_item" id="about-me" href="about-me.html">About me</a>
+
+      <!----- Hamburger toggle, calling js function on click ----->
+      <a class="icon" onclick="toggleHamburger()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!------ Side Navbar --------->
+    <div class="o-mainContainer">
+      <div
+        class="c-menu__sidebarNav u-ff-sans u-pos-fixed l-mt-4"
+        id="sideNavbar"
+      >
+        <p class="sidebarNav__subheading u-fw-bold">Branding</p>
+        <a href="colors.html">01 Colors</a>
+        <a class="u-text-sec u-fw-bold" href="typography.html">02 Typography</a>
+
+        <p class="sidebarNav__subheading u-fw-bold">Utilities</p>
+        <a href="spacing.html">03 Spacing</a>
+        <a href="containers.html">04 Containers</a>
+
+        <p class="sidebarNav__subheading u-fw-bold">Navigation</p>
+        <a href="navbar.html">05 Navbars</a>
+        <a href="breadcrumb.html">06 Breadcrumbs</a>
+
+        <p class="sidebarNav__subheading u-fw-bold">Blocks</p>
+        <a>07 Hero</a>
+        <a href="carousel.html">08 Carousel</a>
+
+        <a href="footer.html">09 Footer</a>
+
+        <p class="sidebarNav__subheading u-fw-bold">Components</p>
+        <a>10 Cards</a>
+        <a>11 Forms</a>
+        <a href="accordion.html">12 Accordion</a>
+        <a>13 Lists</a>
+      </div>
+
+      <main class="l-container">
+        <div class="c-makeSnippet l-mt-10">
+          <div class="l-tipsSection__card">
+            <div class="poster">
+              <span class="l-tips__heading">Sample Card</span>
+              <img
+                class="image"
+                style="height: 100vw"
+                src="images/hibiscus-pro.jpg"
+              />
+            </div>
+
+            <div class="l-tipsSection__details">
+              <div class="c-tags">
+                <span>Sample Card</span>
+              </div>
+              <div class="description">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate veritatis quos similique impedit dolor. Reiciendis
+                  at nobis facilis quasi beatae fugiat odio molestias et maxime
+                  officia voluptatem, ipsum veritatis nesciunt consequuntur
+                  veniam illo hic modi asperiores, cupiditate voluptatibus? Cum
+                  in error dolor ea quidem quis hic odio iste neque! Cupiditate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- linked design-system javascript file -->
+    <script src="design-system.js"></script>
+  </body>
+</html>
