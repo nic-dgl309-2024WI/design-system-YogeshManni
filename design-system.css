@@ -305,6 +305,13 @@ th {
     width: 80ch;
     padding-left: 0px;
   }
+
+  /**********/
+  .o-typographyContainer,
+  .c-fonts,
+  .c-utilityClasses {
+    margin-left: 200px;
+  }
 }
 
 .u-example {
